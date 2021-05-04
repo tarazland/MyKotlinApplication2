@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyKotlinApplication2</string>
+    <string name="SignInCaption">Sign In</string>
+    <string name="user_name">User Name</string>
+    <string name="add_todo">Add TODO</string>
+    <string name="delete">Delete</string>
+
+</resources>
