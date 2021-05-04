@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         // add comment !
 
         val value1:Double=25.0021
+        val value2:String="string"
 
 
 /*
