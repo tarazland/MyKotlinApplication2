@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         val value5:Float=255.55f
         //comment added
         //comment2 added
+        // comment 6
 
 
 /*
