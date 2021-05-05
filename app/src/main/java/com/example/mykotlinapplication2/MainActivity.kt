@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val value2:String="string"
         val value3:Long=123456789
         val value4:Int=256
+        val value5:Float=255.55f
 
 
 /*
