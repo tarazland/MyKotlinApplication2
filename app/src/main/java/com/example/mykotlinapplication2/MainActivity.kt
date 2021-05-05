@@ -3,6 +3,11 @@ package com.example.mykotlinapplication2
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope.coroutineContext
+import kotlinx.coroutines.coroutineScope
+import java.util.*
+import kotlin.coroutines.coroutineContext
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,6 +26,10 @@ class MainActivity : AppCompatActivity() {
         val value5:Float=255.55f
         //comment added
         //comment2 added
+
+        coroutineContext(this,Dispatchers.IO){
+            Log.i("TAG", "onCreate: "+Calendar.getInstance().time)
+        }
 
 
 /*
