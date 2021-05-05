@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         val value4:Int=256
         val value5:Float=255.55f
         //comment added
+        //comment2 added
 
 
 /*
