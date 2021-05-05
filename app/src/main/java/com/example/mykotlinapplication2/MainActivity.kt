@@ -27,10 +27,6 @@ class MainActivity : AppCompatActivity() {
         //comment added
         //comment2 added
 
-        coroutineContext(this,Dispatchers.IO){
-            Log.i("TAG", "onCreate: "+Calendar.getInstance().time)
-        }
-
 
 /*
         for (i in 10 downTo 1 step 2){
